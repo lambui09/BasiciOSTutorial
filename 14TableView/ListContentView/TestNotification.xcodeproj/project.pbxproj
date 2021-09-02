@@ -17,7 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9E3C35B525BFBE32001747DA /* ListContentView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListContentView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C2E78C26DFF4AE008C15BB /* ListContentView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ListContentView.entitlements; sourceTree = "<group>"; };
+		9E3C35B525BFBE32001747DA /* TestNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E3C35B825BFBE32001747DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E3C35BA25BFBE32001747DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9E3C35BC25BFBE32001747DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +51,7 @@
 		9E3C35B625BFBE32001747DA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9E3C35B525BFBE32001747DA /* ListContentView.app */,
+				9E3C35B525BFBE32001747DA /* TestNotification.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,6 +59,7 @@
 		9E3C35B725BFBE32001747DA /* ListContentView */ = {
 			isa = PBXGroup;
 			children = (
+				04C2E78C26DFF4AE008C15BB /* ListContentView.entitlements */,
 				9E3C35B825BFBE32001747DA /* AppDelegate.swift */,
 				9E3C35BA25BFBE32001747DA /* SceneDelegate.swift */,
 				9E3C35BC25BFBE32001747DA /* ViewController.swift */,
@@ -73,9 +75,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9E3C35B425BFBE32001747DA /* ListContentView */ = {
+		9E3C35B425BFBE32001747DA /* TestNotification */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9E3C35C925BFBE3D001747DA /* Build configuration list for PBXNativeTarget "ListContentView" */;
+			buildConfigurationList = 9E3C35C925BFBE3D001747DA /* Build configuration list for PBXNativeTarget "TestNotification" */;
 			buildPhases = (
 				9E3C35B125BFBE32001747DA /* Sources */,
 				9E3C35B225BFBE32001747DA /* Frameworks */,
@@ -85,9 +87,9 @@
 			);
 			dependencies = (
 			);
-			name = ListContentView;
+			name = TestNotification;
 			productName = ListContentView;
-			productReference = 9E3C35B525BFBE32001747DA /* ListContentView.app */;
+			productReference = 9E3C35B525BFBE32001747DA /* TestNotification.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -104,7 +106,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9E3C35B025BFBE32001747DA /* Build configuration list for PBXProject "ListContentView" */;
+			buildConfigurationList = 9E3C35B025BFBE32001747DA /* Build configuration list for PBXProject "TestNotification" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,7 +119,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9E3C35B425BFBE32001747DA /* ListContentView */,
+				9E3C35B425BFBE32001747DA /* TestNotification */,
 			);
 		};
 /* End PBXProject section */
@@ -290,8 +292,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ListContentView/ListContentView.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QG598U658S;
+				DEVELOPMENT_TEAM = 65GWBU557T;
 				INFOPLIST_FILE = ListContentView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,8 +312,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ListContentView/ListContentView.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QG598U658S;
+				DEVELOPMENT_TEAM = 65GWBU557T;
 				INFOPLIST_FILE = ListContentView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -326,7 +330,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9E3C35B025BFBE32001747DA /* Build configuration list for PBXProject "ListContentView" */ = {
+		9E3C35B025BFBE32001747DA /* Build configuration list for PBXProject "TestNotification" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9E3C35C725BFBE3D001747DA /* Debug */,
@@ -335,7 +339,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9E3C35C925BFBE3D001747DA /* Build configuration list for PBXNativeTarget "ListContentView" */ = {
+		9E3C35C925BFBE3D001747DA /* Build configuration list for PBXNativeTarget "TestNotification" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9E3C35CA25BFBE3D001747DA /* Debug */,
